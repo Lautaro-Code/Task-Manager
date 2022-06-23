@@ -31,6 +31,13 @@
 
 </head>
 <body id="body">
+
+    {% block background %}
+    
+        <img src="static/img/background-home.jpg" alt="" id="background-img">
+    
+    {% endblock %}
+
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav-bar">
             <div class="container-fluid">
@@ -49,10 +56,10 @@
                           <a class="nav-link active" aria-current="page" id="signUp" href="/sign-up">SIGN UP</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" id="logout" href="/logout">LOGOUT</a>
+                          <a class="nav-link active" aria-current="page" id="logout" href="/logout">LOGOUT</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" id="home" href="/">HOME</a>
+                          <a class="nav-link active" aria-current="page" id="home" href="/">HOME</a>
                       </li>
                     </ul>
                 </div>
