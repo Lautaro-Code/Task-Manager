@@ -1,17 +1,24 @@
 #body{
-    font-family: 'League Gothic', sans-serif !important;
+    font-family: 'Metropolis-Regular', sans-serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(2,0,36,1) 25%, rgba(0,212,255,1) 98%);
+    z-index: 1;
 }
 
-#background-img{
-    width: 100%, !important;
-    position: fixed, !important;
-}
+/* NAV Styles */
 
 #span-perfil{
-    margin-left: 109px !important;
+    margin-left: 109px;
 }
 
 #nav-bar{
-    width: 80%, !important;
-    border-radius: 50px, !important;
+    width: 80%;
+    height: 4rem;
+    margin-left: 8rem;
+}
+
+/* MAIN Styles */
+
+#h3-content{
+    margin-top: 20rem;
 }
